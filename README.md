@@ -1,6 +1,6 @@
 # 近世スペイン複式簿記史料マークアップのためのガイドライン（暫定版）
 
-## Naoki Kokaze (Chiba University), Takeshi Fushimi (Keio University), and Yusuke Nakamura (The University of Tokyo)
+### Naoki Kokaze (Chiba University), Takeshi Fushimi (Keio University), and Yusuke Nakamura (The University of Tokyo)
 
 
 This repository contains a set of programming codes and mark-up files for analysing an early modern Spanish ledger. A purpose for publishing this repository is to make them available as the appendix for a conference paper.
