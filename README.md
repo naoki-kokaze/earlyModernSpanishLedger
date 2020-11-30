@@ -21,11 +21,17 @@ You can make use of this material, other than the source images, under the licen
 We are developing a guideline for the markup of early modern Spanish historical accounts using DEPCHA, an extended TEI schema specialized in historical account books proposed by Georg Vogeler. In this presentation, we report the results of our markup of a ledger prepared by Salamanca family in 16th-century Spain on the dates of transaction, spellings of personal names and account categories, and point out several constraints of the current DEPCHA scheme. The first version of our guideline is available on GitHub.
 
 
-## マークアップファイル | Markup File
+## マークアップ関連成果 | Outputs derived from the Markup
 
-<a href="markup_guideline/markup_guideline_publish.md">16世紀北スペイン、サラマンカ商会元帳のマークアップ例</a>
+- <a href="codes/burgos_ledger.xml">16世紀北スペイン、サラマンカ商会元帳のマークアップ例</a>
 
-<a href="markup_guideline/markup_guideline_publish.md">Markup Example of the Ledger of the <i>Compañia de los Salamanca</i> in Northern Spain in the 16th Century</a>
+- <a href="codes/burgos_ledger.xml">Markup Example of the Ledger of the <i>Compañia de los Salamanca</i> in Northern Spain in the 16th Century</a>
+
+***
+
+- <a href="markup_guideline/markup_guideline_publish.md">マークアップのための暫定的ガイドライン</a>
+
+- <a href="markup_guideline/markup_guideline_publish.md">Tentative Guideline for the Markup</a>
 
 
 ## 分析結果 | Results of Analysis
