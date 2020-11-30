@@ -16,9 +16,9 @@ You can make use of this material, other than the source images, under the licen
 ## マークアップファイル
 ## Markup File
 
-<a href="#">16世紀北スペイン、サラマンカ商会元帳のマークアップ例</a>
+<a href="markup_guideline/markup_guideline_publish.md">16世紀北スペイン、サラマンカ商会元帳のマークアップ例</a>
 
-<a href="#">Markup Example of the Ledger of the <i>Compañia de los Salamanca</i> in Northern Spain in the 16th Century</a>
+<a href="markup_guideline/markup_guideline_publish.md">Markup Example of the Ledger of the <i>Compañia de los Salamanca</i> in Northern Spain in the 16th Century</a>
 
 
 ## 分析結果など
