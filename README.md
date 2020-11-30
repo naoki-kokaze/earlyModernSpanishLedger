@@ -1,17 +1,25 @@
 # 近世スペイン複式簿記史料マークアップのためのガイドライン（暫定版）| Tentative Guideline for Mark-up of Early Modern Spanish Double-Bookkeeping Ledger
+Last updated on 30th November 2020
 
 ### 小風尚樹（千葉大学）・伏見岳志（慶応義塾大学）・中村雄祐（東京大学）
 ### Naoki Kokaze (Chiba University), Takeshi Fushimi (Keio University), and Yusuke Nakamura (The University of Tokyo)
 
 
-このページでは、近世スペインの元帳史料を分析するためのソースコードやマークアップファイルを公開しており、学会の発表資料の補足情報として閲覧・活用可能にすることを目的としています。
+このページでは、近世スペインの元帳史料を分析するためのソースコードやマークアップファイルを公開しており、学会（人文科学とコンピュータシンポジウム 「じんもんこん2020」）の発表資料の補足情報として閲覧・活用可能にすることを目的としています。
 
-This repository contains a set of programming codes and mark-up files for analysing an early modern Spanish ledger. A purpose for publishing this repository is to make them available as the appendix for a conference paper.
+This repository contains a set of programming codes and mark-up files for analysing an early modern Spanish ledger. A purpose for publishing this repository is to make them available as the appendix for the conference paper of Jinmoncom 2020.
+***
 
 このページで閲覧できる情報は、史料の撮影画像以外は、クリエイティブ・コモンズ・ライセンスBY4.0にて提供します。関心ある方からのご意見・コメントをいただければ幸いです。
 
 You can make use of this material, other than the source images, under the license of CC BY 4.0 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>, and I would be happy to have some feedback from those who are interested in using them.
+
+## 発表概要 | Abstract of the Presentation
+本発表では，近年国際的に議論が進んでいる会計史料のマークアップ手法DEPCHAを参照しながら，16世紀北スペインの元帳史料を構造化した．具体的な成果として，(1) 元帳における借方と貸方の取引収支が釣り合っていることを表現する必要性からDEPCHAの現行モデルの限界を指摘したこと，(2) 当該史料における人物名や勘定関連の用語法・情報の空間的配置・記述の信頼性を考察したこと，(3) そしてマークアップのガイドラインを公開したことが挙げられる．今後の課題は，本研究の成果やマークアップのガイドラインを国際的に議論する材料として改善することである．
+
+We are developing a guideline for the markup of early modern Spanish historical accounts using DEPCHA, an extended TEI schema specialized in historical account books proposed by Georg Vogeler. In this presentation, we report the results of our markup of a ledger prepared by Salamanca family in 16th-century Spain on the dates of transaction, spellings of personal names and account categories, and point out several constraints of the current DEPCHA scheme. The first version of our guideline is available on GitHub.
+
 
 ## マークアップファイル | Markup File
 
@@ -23,6 +31,8 @@ You can make use of this material, other than the source images, under the licen
 ## 分析結果 | Results of Analysis
 
 1. 人名表記のゆれと略記 | Variations on the Names of People mentioned in the Ledger
+
+表記のゆれへの対応は一般にテキストのマークアップの重要項目であるが，信用が重視される会計簿においては，名称，特に人名表記の安定性は極めて重要である．元帳で言及された45人を分析したところ，表記のゆれ幅は，個人の同定が困難になるほどではなかった．
 
 |統一表記|表記のバリエーション|
 |---|---|
