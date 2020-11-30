@@ -23,15 +23,15 @@ We are developing a guideline for the markup of early modern Spanish historical 
 
 ## マークアップ関連成果 | Outputs derived from the Markup
 
-- <a href="codes/burgos_ledger.xml">16世紀北スペイン、サラマンカ商会元帳のマークアップ例</a>
+- <a href="https://github.com/naoki-kokaze/earlyModernSpanishLedger/blob/master/codes/burgos_ledger.xml">16世紀北スペイン、サラマンカ商会元帳のマークアップ例</a>
 
-- <a href="codes/burgos_ledger.xml">Markup Example of the Ledger of the <i>Compañia de los Salamanca</i> in Northern Spain in the 16th Century</a>
+- <a href="https://github.com/naoki-kokaze/earlyModernSpanishLedger/blob/master/codes/burgos_ledger.xml">Markup Example of the Ledger of the <i>Compañia de los Salamanca</i> in Northern Spain in the 16th Century</a>
 
 ***
 
-- <a href="markup_guideline/markup_guideline_publish.md">マークアップのための暫定的ガイドライン</a>
+- <a href="https://github.com/naoki-kokaze/earlyModernSpanishLedger/blob/master/markup_guideline/markup_guideline_publish.md">マークアップのための暫定的ガイドライン</a>
 
-- <a href="markup_guideline/markup_guideline_publish.md">Tentative Guideline for the Markup</a>
+- <a href="https://github.com/naoki-kokaze/earlyModernSpanishLedger/blob/master/markup_guideline/markup_guideline_publish.md">Tentative Guideline for the Markup</a>
 
 
 ## 分析結果 | Results of Analysis
