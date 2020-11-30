@@ -34,15 +34,15 @@ Last updated on 5th September 2020
 
 **日記帳サンプル**
 
-![日記帳](日記帳p2画像.jpg)
+![日記帳](images/日記帳p2画像.jpg)
 cf. Archivo de la Diputación Provincial de Burgos, Consulado del Mar, CM32
 
 **元帳（借方）サンプル**
 
-![元帳借方](元帳p35画像(APB-R108-p35左).jpg)
+![元帳借方](images/元帳p35画像(APB-R108-p35左).jpg)
 
 **元帳（貸方）サンプル**
-![元帳貸方](元帳p22画像(APB-R108-p22右).jpg)
+![元帳貸方](images/元帳p22画像(APB-R108-p22右).jpg)
 
 cf. Archivo de la Diputación Provincial de Burgos, Consulado del Mar, CM108
 
@@ -91,7 +91,7 @@ cf. Archivo de la Diputación Provincial de Burgos, Consulado del Mar, CM108
 </div>
 ```
 
-![tableタグ使用例](sample_table.JPG)
+![tableタグ使用例](images/sample_table.JPG)
 
 上記の例は、2×2の表をマークアップしたものである。TEIでは、なんらかのまとまりを表す\<div\>エレメントの子要素として\<table\>エレメントが用いられることが多いようだ。
 
@@ -206,7 +206,7 @@ DEPCHAオントロジーは、[4章](#transactionography) で説明したTransac
       </row>
 </table>
 ```
-![最低限の構造化記述の結果](simplest_table.JPG)
+![最低限の構造化記述の結果](images/simplest_table.JPG)
 
 例えば上記のように属性値を付与することによって、DEPCHAオントロジーにおいて「ひとつの取引（トランザクション）」が成立していることを表現することができる。
 
@@ -321,23 +321,23 @@ DEPCHAオントロジーは、[4章](#transactionography) で説明したTransac
 
 1. まず、エディター画面上部にある「変換シナリオの設定」を選択する
 
-![変換シナリオの設定](変換シナリオの設定.png)
+![変換シナリオの設定](images/変換シナリオの設定.png)
 
 2. 次に、ポップアップウィンドウ内の「新規」→「XML transformation with XSLT」の順にクリックする
 
-![新規XSLTプロジェクト](新規XSLTプロジェクト.png)
+![新規XSLTプロジェクト](images/新規XSLTプロジェクト.png)
 
 3. 「新しいシナリオ」ウィンドウの「XSLT」タブ内にある「XSL URL」を指定するにあたって、「ローカルファイルの参照」を選択し、保存しておいたDEPCHAによるXSLTファイルを選択する
 
-![ローカルファイルの参照](ローカルファイルの参照.png)
+![ローカルファイルの参照](images/ローカルファイルの参照.png)
 
 4. 次に「出力」タブに移動し、「別名で保存」バーにファイル名を入力する。.xmlの拡張子をつけ忘れないようにする
 
-![別名で保存](別名で保存.png)
+![別名で保存](images/別名で保存.png)
 
 5. 最後に「関連付けを適用」ボタンをクリックすれば、変換が完了する
 
-![関連付けを適用](関連付けを適用.png)
+![関連付けを適用](images/関連付けを適用.png)
 
 変換したRDFファイルは次のようになる。
 
@@ -456,7 +456,7 @@ DEPCHAオントロジーは、[4章](#transactionography) で説明したTransac
 
 RDFグラフの構造を理解するには、やはりネットワーク構造が適しているので、神崎正英氏の開発した「RDFグラフの視覚化」ツール(https://www.kanzaki.com/works/2009/pub/graph-draw)を用いると、次のような結果を得る。
 
-![RDFグラフ](graph-draw.png)
+![RDFグラフ](images/graph-draw.png)
 
 ## **6-2. 標準化データ記述の価値**
 
@@ -526,7 +526,7 @@ for row in qres:
 
 出力結果は次のようになる。
 
-![クエリ結果サンプル](クエリ結果サンプル.png)
+![クエリ結果サンプル](images/クエリ結果サンプル.png)
 
 ただし、現状、金額を示すURIを生成できずにいる。今後、要検討。
 
@@ -580,7 +580,7 @@ convert_DEPCHA_rdf_to_simple_network('Spanish_daybook_output_depcha.xml', 'Spani
 
 これにより、ネットワーク分析ソフトウェアのひとつGephiを用いて、（非常に単純であるが）次のようなネットワーク図を描画できるようになった。ちなみに各ノードの大きさは、取引にかかわった回数に応じて決定している。いわゆる次数中心性に基づく分析である。
 
-![simple_gephi](simple_gephi.png)
+![simple_gephi](images/simple_gephi.png)
 
 ---
 # <a id="section2">Section 2: 元帳</a>
@@ -607,7 +607,7 @@ convert_DEPCHA_rdf_to_simple_network('Spanish_daybook_output_depcha.xml', 'Spani
 したがって、今回の元帳マークアップでは、DEPCHAの推奨する方式はひとまず取りおいて、貸借の対応関係を示せるような方法を試案することとする。
 
 全体のマークアップ構造として、次のようにした。
-![元帳マークアップ構造](元帳マークアップ構造.png)
+![元帳マークアップ構造](images/元帳マークアップ構造.png)
 
 - ひとつのページに複数の仕訳が含まれている場合があることから、@ana属性値entryを持つdivタグの親要素として、見開きページ番号を含む@xml:id属性を持つdivタグを設定した
 - @ana属性値としてentry, debit, creditを設定することによって、仕訳のまとまり、それに属する貸方と借方の階層構造を表現した
@@ -1045,8 +1045,8 @@ convert_DEPCHA_rdf_to_simple_network('Spanish_daybook_output_depcha.xml', 'Spani
 - ページの対応
 
 日記帳に記された取引は、元帳の借方と貸方のページに転記されることから、それぞれの参照ページ数が書かれている。次のような具合である。
-![史料画像](日記帳p2画像.jpg)
-![解説](日記帳p2テキスト.jpg)
+![史料画像](images/日記帳p2画像.jpg)
+![解説](images/日記帳p2テキスト.jpg)
 
 したがって、ひとまずここに記されている35（ページ）と22（ページ）という数字から、元帳にリンクを飛ばすような設計にする必要があるだろう。しかし、元帳から日記帳をたどることは構造的に不可能であることは付記しておきたい。35ページと22ページはどちらも元帳のページ数であり、それら元帳のページを見てみても日記帳のページ数は記されていないからである。
 
