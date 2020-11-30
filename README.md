@@ -30,7 +30,7 @@ We are developing a guideline for the markup of early modern Spanish historical 
 
 ## 分析結果 | Results of Analysis
 
-1. 人名表記のゆれと略記 | Variations on the Names of People mentioned in the Ledger
+### 1. 人名表記のゆれと略記 | Variations on the Names of People mentioned in the Ledger
 
 表記のゆれへの対応は一般にテキストのマークアップの重要項目であるが，信用が重視される会計簿においては，名称，特に人名表記の安定性は極めて重要である．元帳で言及された45人を分析したところ，表記のゆれ幅は，個人の同定が困難になるほどではなかった．16世紀において人名などの綴りにはゆれが見られる．正書法が確立していない時代のため，ゆれがあることは当然である．さらに，当時の文書では，さまざまな単語が略記される傾向があった．たとえば，下記の表ではSalamancaがsaと略記されるケースがある．
 
@@ -84,7 +84,7 @@ We are developing a guideline for the markup of early modern Spanish historical 
 |Joan de Pero Sainz|Joan de pero sainz|
 |Joan Sainz el viejo|Joan Sainz el biejo
 
-2. 「勘定科目」の語彙の出現パターン | Occurrence Patters of 'Accounting' Vocabularies
+### 2. 「勘定科目」の語彙の出現パターン | Occurrence Patters of 'Accounting' Vocabularies
 
 DEPCHAで定義されている@ana属性値bk:accountを使って，当時の勘定に関する語彙（厳密には現代の会計概念における勘定科目とは一致しないが，以下では便宜的に「勘定科目」と呼ぶ）を抽出した結果を下記の表に示す．帳簿を仔細に検討すると，それぞれの表現が用いられる頻度の差は，それぞれの表現がデータセット内のどの位置で用いられるかによって説明できることが明らかになった．
 
