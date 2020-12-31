@@ -1,4 +1,4 @@
-# 近世スペイン複式簿記史料マークアップのためのガイドライン（暫定版）| Tentative Guideline for Mark-up of Early Modern Spanish Double-Bookkeeping Ledger
+# 近世スペイン複式簿記史料マークアップのためのガイドライン（暫定版）| Tentative Guideline for Mark-up of Early Modern Spanish Double-Bookkeeping Ledger | Guía tentativa para el marcado de un libro mayor de la contabilidad de doble entrada en la España moderna temprana
 Last updated on 30th November 2020
 
 ### 小風尚樹（千葉大学）・伏見岳志（慶応義塾大学）・中村雄祐（東京大学）
@@ -8,6 +8,8 @@ Last updated on 30th November 2020
 このページでは、近世スペインの元帳史料を分析するためのソースコードやマークアップファイルを公開しており、学会（人文科学とコンピュータシンポジウム 「じんもんこん2020」）の発表資料の補足情報として閲覧・活用可能にすることを目的としています。
 
 This repository contains a set of programming codes and mark-up files for analysing an early modern Spanish ledger. A purpose for publishing this repository is to make them available as the appendix for the conference paper of Jinmoncom 2020.
+
+Este repositorio contiene un conjunto de códigos de programación y archivos del marcado para analizar un libro de contabilidad producido en España durante el período moderno temprano. Uno de los propósitos de la publicación de este repositorio es ponerlo a disposición como un apéndice del comunicado del congreso de Jinmoncom 2020.
 ***
 
 このページで閲覧できる情報は、史料の撮影画像以外は、クリエイティブ・コモンズ・ライセンスBY4.0にて提供します。関心ある方からのご意見・コメントをいただければ幸いです。
@@ -15,17 +17,24 @@ This repository contains a set of programming codes and mark-up files for analys
 You can make use of this material, other than the source images, under the license of CC BY 4.0 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>, and I would be happy to have some feedback from those who are interested in using them.
 
-## 発表概要 | Abstract of the Presentation
+Se puede utilizar este material, además de las imágenes de origen, bajo la licencia de CC BY 4.0, y nos complacería recibir comentarios de quienes estén interesados en utilizarlos.
+
+
+## 発表概要 | Abstract of the Presentation | Resumen de la presentación
 本発表では，近年国際的に議論が進んでいる会計史料のマークアップ手法DEPCHAを参照しながら，16世紀北スペインの元帳史料を構造化した．具体的な成果として，(1) 元帳における借方と貸方の取引収支が釣り合っていることを表現する必要性からDEPCHAの現行モデルの限界を指摘したこと，(2) 当該史料における人物名や勘定関連の用語法・情報の空間的配置・記述の信頼性を考察したこと，(3) そしてマークアップのガイドラインを公開したことが挙げられる．今後の課題は，本研究の成果やマークアップのガイドラインを国際的に議論する材料として改善することである．
 
 We are developing a guideline for the markup of early modern Spanish historical accounts using DEPCHA, an extended TEI schema specialized in historical account books proposed by Georg Vogeler. In this presentation, we report the results of our markup of a ledger prepared by Salamanca family in 16th-century Spain on the dates of transaction, spellings of personal names and account categories, and point out several constraints of the current DEPCHA scheme. The first version of our guideline is available on GitHub.
 
+Estamos desarrollando una guía para hacer marcado sobre los libros españoles de cuentas históricas durante el período moderno temprano utilizando DEPCHA, un esquema TEI extendido especializado en libros de cuentas históricos propuesto por Georg Vogeler. En esta presentación, informamos los resultados de nuestro marcado de un libro mayor armado por la familia Salamanca en la España del siglo XVI acerca de las fechas de la transacción, la ortografía de los nombres personales y las categorías de cuentas, y señalamos varias limitaciones del esquema actual de DEPCHA. La primera versión de nuestra guía está disponible en GitHub.
 
-## マークアップ関連成果 | Outputs derived from the Markup
+
+## マークアップ関連成果 | Outputs derived from the Markup | Algunos resultados del marcado
 
 - <a href="https://github.com/naoki-kokaze/earlyModernSpanishLedger/blob/master/codes/burgos_ledger.xml">16世紀北スペイン、サラマンカ商会元帳のマークアップ例</a>
 
 - <a href="https://github.com/naoki-kokaze/earlyModernSpanishLedger/blob/master/codes/burgos_ledger.xml">Markup Example of the Ledger of the <i>Compañia de los Salamanca</i> in Northern Spain in the 16th Century</a>
+
+- <a href="https://github.com/naoki-kokaze/earlyModernSpanishLedger/blob/master/codes/burgos_ledger.xml">Ejemplo de marcado del libro mayor de la <i>Compañía de los Salamanca</i> de Burgos en el siglo XVI</a>
 
 ***
 
@@ -33,10 +42,12 @@ We are developing a guideline for the markup of early modern Spanish historical 
 
 - <a href="https://github.com/naoki-kokaze/earlyModernSpanishLedger/blob/master/markup_guideline/markup_guideline_publish.md">Tentative Guideline for the Markup</a>
 
+- <a href="https://github.com/naoki-kokaze/earlyModernSpanishLedger/blob/master/markup_guideline/markup_guideline_publish.md">Guía tentativa para el marcado</a>
 
-## 分析結果 | Results of Analysis
 
-### 1. 人名表記のゆれと略記 | Variations on the Names of People mentioned in the Ledger
+## 分析結果 | Results of Analysis | Resultado de análisis 
+
+### 1. 人名表記のゆれと略記 | Variations on the Names of People mentioned in the Ledger　| Variantes de los nombres de personas mencionadas en el libro mayor 
 
 表記のゆれへの対応は一般にテキストのマークアップの重要項目であるが，信用が重視される会計簿においては，名称，特に人名表記の安定性は極めて重要である．元帳で言及された45人を分析したところ，表記のゆれ幅は，個人の同定が困難になるほどではなかった．16世紀において人名などの綴りにはゆれが見られる．正書法が確立していない時代のため，ゆれがあることは当然である．さらに，当時の文書では，さまざまな単語が略記される傾向があった．たとえば，下記の表ではSalamancaがsaと略記されるケースがある．
 
@@ -90,7 +101,7 @@ We are developing a guideline for the markup of early modern Spanish historical 
 |Joan de Pero Sainz|Joan de pero sainz|
 |Joan Sainz el viejo|Joan Sainz el biejo
 
-### 2. 「勘定科目」の語彙の出現パターン | Occurrence Patters of 'Accounting' Vocabularies
+### 2. 「勘定科目」の語彙の出現パターン | Occurrence Patters of 'Accounting' Vocabularies | Patrón de ocurrencia de los términos contables
 
 DEPCHAで定義されている@ana属性値bk:accountを使って，当時の勘定に関する語彙（厳密には現代の会計概念における勘定科目とは一致しないが，以下では便宜的に「勘定科目」と呼ぶ）を抽出した結果を下記の表に示す．帳簿を仔細に検討すると，それぞれの表現が用いられる頻度の差は，それぞれの表現がデータセット内のどの位置で用いられるかによって説明できることが明らかになった．
 
@@ -147,7 +158,7 @@ DEPCHAで定義されている@ana属性値bk:accountを使って，当時の勘
 |5|deuen|An de auer|
 |5|dio||
 
-### 3. 取引収支の分析 | Analysis on the Balance of Payment
+### 3. 取引収支の分析 | Analysis on the Balance of Payment | Análisis del balance de cuenta
 本研究では元帳の仕訳における借方と貸方の取引収支が釣り合っているかどうかを確認できるように，取引金額のローマ数字をアラビア数字に変換した値をデータとして保持していた．このデータをもとに，元帳の35ページにおける取引収支を検算した結果の一部を下記の表に示す．
 
 検算結果は，帳簿に記載された収支の額と合致していた．このことは，この帳簿においては，金額やその合計額の算出が正確におこなわれており，商会の人間が正確性を重視したことを示唆している．
