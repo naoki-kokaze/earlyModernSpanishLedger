@@ -10,6 +10,7 @@ Last updated on 30th November 2020
 This repository contains a set of programming codes and mark-up files for analysing an early modern Spanish ledger. A purpose for publishing this repository is to make them available as the appendix for the conference paper of Jinmoncom 2020.
 
 Este repositorio contiene un conjunto de códigos de programación y archivos del marcado para analizar un libro de contabilidad producido en España durante el período moderno temprano. Uno de los propósitos de la publicación de este repositorio es ponerlo a disposición como un apéndice del comunicado del congreso de Jinmoncom 2020.
+
 ***
 
 このページで閲覧できる情報は、史料の撮影画像以外は、クリエイティブ・コモンズ・ライセンスBY4.0にて提供します。関心ある方からのご意見・コメントをいただければ幸いです。
@@ -51,7 +52,13 @@ Estamos desarrollando una guía para hacer marcado sobre los libros españoles d
 
 表記のゆれへの対応は一般にテキストのマークアップの重要項目であるが，信用が重視される会計簿においては，名称，特に人名表記の安定性は極めて重要である．元帳で言及された45人を分析したところ，表記のゆれ幅は，個人の同定が困難になるほどではなかった．16世紀において人名などの綴りにはゆれが見られる．正書法が確立していない時代のため，ゆれがあることは当然である．さらに，当時の文書では，さまざまな単語が略記される傾向があった．たとえば，下記の表ではSalamancaがsaと略記されるケースがある．
 
+The stability of the spelling of names, especially those of persons, is of great importance in account books, where trust is of paramount importance. An analysis of 45 individuals mentioned in the ledgers shows that the range of variation in spelling was not so great as to make identification of individuals difficult. The fact that we found this variation of spelling to some extent is to be naturally expected at a time when orthography was not yet established. In addition, there was a tendency to abbreviate various words in documents of the time. For example, in the table below, Salamanca is abbreviated to 'Sa' in some cases.
+
+***
+
 この統一表記を付与する作業は，別の分析の可能性を拓く．すなわち，どのような人物の場合にゆれが大きくなるか，である．表では，ゆれが大きいのは最初の3名である．このうちMiguel de Salamancaはサラマンカ商会の成員である．また，残り2名（Alonso de BeguillasとPedro de Caballos）については，取引内容の検討から，サラマンカ商会の業務である羊毛の買い付けや運搬を担う人物であり，いわば関係者だと判断される．したがって，商会の関係者のほうがゆれが大きいという推測が成り立つ．
+
+The process of assigning a uniform notation opens up other possibilities for analysis. In the table, the first three are the ones with the largest deviations. Among them, Miguel de Salamanca is a member of the Salamanca Chamber of Commerce. The other two (Alonso de Beguillas and Pedro de Caballos) are considered to be members of the Salamanca Chamber of Commerce, since they were responsible for the purchase and transport of wool. Therefore, it is reasonable to assume that those involved in the business are more likely to be abbreviated in different ways.
 
 |統一表記|表記のバリエーション|
 |---|---|
@@ -105,7 +112,13 @@ Estamos desarrollando una guía para hacer marcado sobre los libros españoles d
 
 DEPCHAで定義されている@ana属性値bk:accountを使って，当時の勘定に関する語彙（厳密には現代の会計概念における勘定科目とは一致しないが，以下では便宜的に「勘定科目」と呼ぶ）を抽出した結果を下記の表に示す．帳簿を仔細に検討すると，それぞれの表現が用いられる頻度の差は，それぞれの表現がデータセット内のどの位置で用いられるかによって説明できることが明らかになった．
 
+Using the @ana attribute value 'bk:account' defined in DEPCHA, we extracted the vocabulary related to account titles at that time (strictly speaking, account titles do not correspond to account titles in modern accounting concepts, but we call them 'account titles' for convenience in the following), and the results are shown in the table below. A closer examination of the accounts reveals that the difference in the frequency of use of each expression can be explained by the position in the dataset where each expression is used.
+
+***
+
 各セットのなかに複数の取引が含まれる場合，1件目の取引では借方記入 (deue) や貸方記入 (A de auer) といった会計用語が用いられる．しかし，2件目の取引以降は，支払った (pago) ，渡した (dio) といった一般的な表現が用いられる．ここから，2件目以降の表現は，1件目の会計用語と同じ意味で用いられていると判断される．したがって，一般的な表現のあいまいさは，そのセットの1件目の取引を参照することによって解消される．
+
+When a dataset contains several transactions, the first transaction uses accounting terms such as debit (deue) and credit (A de auer). However, from the second transaction onwards, the more common terms such as paid (pago) and delivered (dio) are used. From this, we can conclude that the expressions used after the second transaction have the same meaning as the accounting terms used in the first transaction. Therefore, any ambiguity in the general expressions can be resolved by referring to the first transaction in the set.
 
 |仕訳番号|借方欄の「勘定科目」|貸方欄の「勘定科目」|
 |---|---|---|
@@ -161,7 +174,13 @@ DEPCHAで定義されている@ana属性値bk:accountを使って，当時の勘
 ### 3. 取引収支の分析 | Analysis on the Balance of Payment | Análisis del balance de cuenta
 本研究では元帳の仕訳における借方と貸方の取引収支が釣り合っているかどうかを確認できるように，取引金額のローマ数字をアラビア数字に変換した値をデータとして保持していた．このデータをもとに，元帳の35ページにおける取引収支を検算した結果の一部を下記の表に示す．
 
+In order to check whether the debit and credit balances in the ledger journal are balanced or not, we kept the Roman numerals of the transaction amounts are converted to Arabic numerals as data in this study. The table below shows some of the results of the calculations of the balance of payments on page 35 of the ledger.
+
+***
+
 検算結果は，帳簿に記載された収支の額と合致していた．このことは，この帳簿においては，金額やその合計額の算出が正確におこなわれており，商会の人間が正確性を重視したことを示唆している．
+
+The results agree with the amounts recorded in the account book. This suggests that the calculation of amounts and totals in the ledger was accurate, and that the merchants were concerned with accuracy.
 
 |debit side||||||credit side||||||
 |---|---|---|---|---|---|---|---|---|---|---|---|
