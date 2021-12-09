@@ -1,13 +1,13 @@
 # 近世スペイン複式簿記史料マークアップのためのガイドライン（暫定版）| Tentative Guideline for Mark-up of Early Modern Spanish Double-Bookkeeping Ledger | Guía tentativa para el marcado de un libro mayor de la contabilidad de doble entrada en la España moderna temprana
-Last updated on 30th November 2020
+Last updated on 9th December 2021
 
 ### 小風尚樹（千葉大学）・伏見岳志（慶応義塾大学）・中村雄祐（東京大学）
 ### Naoki Kokaze (Chiba University), Takeshi Fushimi (Keio University), and Yusuke Nakamura (The University of Tokyo)
 
 
-このページでは、近世スペインの元帳史料を分析するためのソースコードやマークアップファイルを公開しており、学会（人文科学とコンピュータシンポジウム 「じんもんこん2020」）の発表資料の補足情報として閲覧・活用可能にすることを目的としています。
+このページでは、近世スペインの元帳史料を分析するためのソースコードやマークアップファイルを公開しており、学会（人文科学とコンピュータシンポジウム 「じんもんこん2020」やDH2022 Tokyo）の発表資料の補足情報として閲覧・活用可能にすることを目的としています。
 
-This repository contains a set of programming codes and mark-up files for analysing an early modern Spanish ledger. A purpose for publishing this repository is to make them available as the appendix for the conference paper of Jinmoncom 2020.
+This repository contains a set of programming codes and mark-up files for analysing an early modern Spanish ledger. A purpose for publishing this repository is to make them available as the appendix for the conference paper of Jinmoncom 2020 and DH2022 Tokyo.
 
 Este repositorio contiene un conjunto de códigos de programación y archivos del marcado para analizar un libro de contabilidad producido en España durante el período moderno temprano. Uno de los propósitos de la publicación de este repositorio es ponerlo a disposición como un apéndice del comunicado del congreso de Jinmoncom 2020.
 
