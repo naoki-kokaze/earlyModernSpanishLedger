@@ -60,6 +60,12 @@ The stability of the spelling of names, especially those of persons, is of great
 
 The process of assigning a uniform notation opens up other possibilities for analysis. In the table, the first three are the ones with the largest deviations. Among them, Miguel de Salamanca is a member of the Salamanca Chamber of Commerce. The other two (Alonso de Beguillas and Pedro de Caballos) are considered to be members of the Salamanca Chamber of Commerce, since they were responsible for the purchase and transport of wool. Therefore, it is reasonable to assume that those involved in the business are more likely to be abbreviated in different ways.
 
+***
+
+
+
+We observed larger deviations in spelling for those who were related closely to the Company. We speculate that the larger variations were tolerated for the identifiable persons. If so, the merchants did not standardize the spelling, because the written records did not become readable without merchants’ memories to contextualize them.
+
 |統一表記|表記のバリエーション|
 |---|---|
 |Miguel de Salamanca|migl de sa; miguel de sa; miguel de sa; miguel de salamanca; migel de sa|
